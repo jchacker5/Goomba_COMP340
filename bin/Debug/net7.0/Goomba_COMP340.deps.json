@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Goomba_COMP340/1.0.0": {
+        "runtime": {
+          "Goomba_COMP340.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Goomba_COMP340/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

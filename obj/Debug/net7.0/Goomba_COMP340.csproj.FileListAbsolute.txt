@@ -1,0 +1,15 @@
+/Users/gijoe/Documents/Goomba_COMP340/bin/Debug/net7.0/Goomba_COMP340
+/Users/gijoe/Documents/Goomba_COMP340/bin/Debug/net7.0/Goomba_COMP340.deps.json
+/Users/gijoe/Documents/Goomba_COMP340/bin/Debug/net7.0/Goomba_COMP340.runtimeconfig.json
+/Users/gijoe/Documents/Goomba_COMP340/bin/Debug/net7.0/Goomba_COMP340.dll
+/Users/gijoe/Documents/Goomba_COMP340/bin/Debug/net7.0/Goomba_COMP340.pdb
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.csproj.AssemblyReference.cache
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.AssemblyInfoInputs.cache
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.AssemblyInfo.cs
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.csproj.CoreCompileInputs.cache
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.dll
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/refint/Goomba_COMP340.dll
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.pdb
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/Goomba_COMP340.genruntimeconfig.cache
+/Users/gijoe/Documents/Goomba_COMP340/obj/Debug/net7.0/ref/Goomba_COMP340.dll
