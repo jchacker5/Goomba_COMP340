@@ -9,7 +9,7 @@ class Goomba{
         this.goombaSprite = new string[10];
         setSprite(); // store the goomba speed
 
-    }
+    } 
     private void SetSprite(){
         goombaSprite[0] = @"     ________  ";
         goombaSprite[1] = @"    /        \ ";
