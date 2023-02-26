@@ -10,8 +10,8 @@ class GoombaWalk{
     private void DrawFrame(){
         //Console.Clear();
         this.star.DrawSprite();
-        this.ground.DrawSprite();
         this.goomba.DrawSprite();
+        this.ground.DrawSprite();
     }
     public void StartAnimation(){
         int frameNumber = 20;
