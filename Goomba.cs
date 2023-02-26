@@ -1,5 +1,5 @@
 class Goomba{
-    private int posX;
+    protected int posX;
     private int speed;
 
     private string[] goombaSprite;
@@ -24,7 +24,7 @@ class Goomba{
         goombaSprite[8] = @"/____\ ==== /____\ ";
         goombaSprite[9] = @"                     ";
     }
-    public void DrawSprite(){
+    public virtual void DrawSprite(){
         string spaces = "";
         for(int i = 0; i < this.posX; i++){
             spaces += " ";
