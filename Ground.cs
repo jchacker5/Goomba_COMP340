@@ -1,7 +1,7 @@
 class Ground{
     private int length;
     private string[] groundSprite;
-    private int posX;
+    private int posX = 0;
 
     public Ground(int length){
         this.length = length;

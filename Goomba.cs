@@ -1,18 +1,26 @@
 class Goomba{
     protected int posX;
     private int speed;
-
-    private string[] goombaSprite;
+    protected string[] goombaSprite;
     private Boolean direction;
-    public Goomba(int speed){
+    protected Lazy<string[]> goombaSpriteLeftFoot;
+    protected Lazy<string[]> goombaSpriteRightFoot;
+   public Goomba(int speed)
+    {
         this.posX = 0;
         this.speed = speed;
         this.goombaSprite = new string[10];
         SetSprite(); // store the goomba image to goombaSprite
         this.direction = true; // true = right, false = left
+        goombaSpriteLeftFoot = new Lazy<string[]>(() => new string[10]);
+        goombaSpriteRightFoot = new Lazy<string[]>(() => new string[10]);
+    }
+    protected Goomba(int speed, string[] goombaSpriteLeftFoot, string[] goombaSpriteRightFoot) : this(speed)
+    {
+    
+    }
 
-    } 
-    private void SetSprite(){
+    protected virtual void SetSprite(){
         goombaSprite[0] = @"     ________  ";
         goombaSprite[1] = @"    /        \ ";
         goombaSprite[2] = @"   /  \    /  \ ";

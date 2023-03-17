@@ -1,30 +1,31 @@
+using System.Text;
 class GoombaAdv : Goomba
 {
-    
-    private string[] goombaSpriteLeftFoot;   
-    private string[] goombaSpriteRightFoot;
+    private string[] goombaSpriteLeftFoot = new string[10];
+    private string[] goombaSpriteRightFoot = new string[10];
+
     private int spriteIndex = 0;
 
-    public GoombaAdv(int speed) : base(speed)
+    public GoombaAdv(int speed ) : base(speed, new string[10], new string[10])
     {
-        goombaSpriteLeftFoot = new string[10];
-        goombaSpriteRightFoot = new string[10];
+        // goombaSpriteLeftFoot = new string[10];
+        // goombaSpriteRightFoot = new string[10];
         SetSprite();
 
     }
 
     public override void DrawSprite()
     {
-        if (this.posX < 0)
+        if (this.posX < 0|| this.posX > Console.WindowWidth)
         {
             Console.WriteLine("The sprite is not visible");
             return;
         }
 
-        string spaces = "";
+        StringBuilder spaces = new StringBuilder();
         for (int i = 0; i < this.posX; i++)
         {
-            spaces += " ";
+            spaces.Append(" ");
         }
 
         string[] currentSprite;
@@ -39,10 +40,10 @@ class GoombaAdv : Goomba
 
         foreach (string eachLine in currentSprite)
         {
-            Console.WriteLine(spaces + eachLine);
+            Console.WriteLine(spaces.ToString() + eachLine);
         }
 
-        spriteIndex++;
+        spriteIndex = (spriteIndex + 1) % int.MaxValue;
 
         if (spriteIndex == 1000000) // to prevent integer overflow
         {
@@ -51,7 +52,7 @@ class GoombaAdv : Goomba
         }
     }
 
-    private void SetSprite()
+    protected override void SetSprite()
     {
     // Store the left and right foot sprites in separate arrays
     goombaSpriteLeftFoot[0] = @"     ________  ";
